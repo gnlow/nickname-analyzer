@@ -1,7 +1,7 @@
 # nickname-analyzer
 닉네임/ID 유형 분석기
 ## Data Source
-[엔트리](https://playentry.org/)의 최신 스태프선정 작품 100개(2020-06-06 기준)의 좋아요 목록에서 유저 ID를 추출하였다.  
+[엔트리](https://playentry.org/)의 최신 스태프선정 작품 100개(2020-06-06 기준)의 좋아요 목록에서 유저 ID를 추출하였다.(중복 제외)  
 [원본 데이터/추출 코드](https://gist.github.com/gnlow/cbcfcb68717d1b92b70b4be222c8eaa4)
 ## Result
 ### 길이별
