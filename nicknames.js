@@ -1,4 +1,4 @@
-[
+export default [
   "mango02224",
   "hyeon809",
   "sechan09",
@@ -1035,7 +1035,6 @@
   "doopeach",
   "seonwy",
   "tjdqls0711",
-  null,
   "6767gogo",
   "jake7656",
   "samsan412",
