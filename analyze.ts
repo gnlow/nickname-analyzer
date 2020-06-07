@@ -4,17 +4,15 @@ import nicknames from "./nicknames.js";
 
 const tester = (x: string) => 
     [
+        "Initial + Birth",
+        "String + Birth",
         "String + Number",
-        "Number + String",
-        "String",
-        "Number",
         "Other",
     ][
         [
+            /^[a-z]{3}(?:0[1-9]|1[012])(?:0[1-9]|[12][0-9]|3[01])$/,
+            /^[a-z]+(?:0[1-9]|1[012])(?:0[1-9]|[12][0-9]|3[01])$/,
             /^[a-z]+\d+$/,
-            /^\d+[a-z]+$/,
-            /^[a-z]+$/,
-            /^\d+$/,
             /.+/,
         ].findIndex(regex => regex.exec(x))
     ]
