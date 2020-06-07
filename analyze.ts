@@ -3,6 +3,6 @@ const { groupBy, mapValue } = _
 import nicknames from "./nicknames.js";
 
 const tester = (x: string) => 
-    /^[a-z]+(\d+)$/.exec(x) && (<RegExpExecArray>/^[a-z]+(\d+)$/.exec(x))[1].length
+    !!( /^[a-z]+((19\d|20[01])\d)$/.exec(x) )
 
 console.log([...Object.entries( mapValue(groupBy(nicknames, tester), (y: []) => y.length) )].map(x => x.join(",")).join("\n") )
